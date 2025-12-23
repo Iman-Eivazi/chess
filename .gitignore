@@ -1,0 +1,90 @@
+# ============================
+# C++ Console Chess - .gitignore
+# ============================
+
+# Build output directories
+build/
+bin/
+obj/
+out/
+debug/
+release/
+Debug/
+Release/
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Compiled executables
+*.exe
+*.out
+*.app
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+core
+vgcore.*
+.vscode/.ropeproject
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+install_manifest.txt
+
+# Visual Studio / MSVC
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Other IDE metadata
+*.pro.user*
+*.dsw
+*.aps
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
